@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Style src="project://database/Assets/UI%20Toolkit/panel.uss?fileID=7433441132597879392&amp;guid=3dbc2a19cbadc1e4dbef737c4c815cd2&amp;type=3#panel" />
+    <ui:VisualElement name="MainView" class="panel">
+        <ui:Label text="Label" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+</ui:UXML>

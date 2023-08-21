@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="MainView" style="flex-grow: 1; align-items: center; justify-content: center; background-color: rgba(0, 43, 64, 255);">
+        <ui:VisualElement name="ShopPanel" style="flex-direction: row; height: 350px; width: 232px;" />
+        <ui:VisualElement name="MoneyCounter" style="background-image: resource(&apos;Sprites/snapedit_1692476095572&apos;); justify-content: flex-start; align-items: stretch; height: 25px; width: 24px; position: absolute; top: 7px; left: 5px;">
+            <ui:Label text="Money" display-tooltip-when-elided="true" name="MoneyCounter" style="-unity-text-align: upper-left; white-space: nowrap; width: 70px; position: absolute; bottom: auto; top: 4px; left: 26px; background-image: none; height: 21px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
